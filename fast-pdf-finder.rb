@@ -1,10 +1,11 @@
 class FastPdfFinder < Formula
   desc "Fast, command-line PDF finder"
   homepage "https://github.com/bellecp/fast-p"
-  url "https://github.com/bellecp/fast-p/releases/download/v0.2.2/fast-p_0.2.2_Darwin_x86_64.tar.gz"
-  version "0.2.2"
-  sha256 "90c692cd1907761045d41870b40f0656c5f323b69c5f62557906c973a97b083e"
+  url "https://github.com/bellecp/fast-p/releases/download/v0.2.3/fast-p_0.2.3_Darwin_x86_64.tar.gz"
+  version "0.2.3"
+  sha256 "d9d9b81c8a078b326f199a75baae1647769287ea5bf05faeb96be60f4ea49866"
   
+  depends_on "grep"
   depends_on "fzf"
   depends_on "coreutils"
   depends_on "findutils"
